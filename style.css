@@ -1,0 +1,60 @@
+.main{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.header p{
+    font-size: 1rem;
+}
+
+.header_flex{
+    display: flex;
+    gap: 4vw;
+}
+
+.image{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color: cadetblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.address h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.address h3 i{
+    color: black;
+}
+
+.mainContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4vw;
+}
+
+.card{
+    border: 1px solid blue;
+}
+
+.btn_grp{
+    display: flex;
+    gap: 10px;
+}
+
+.btn_grp button{
+    background-color: blueviolet;
+    color: wheat;
+    border-radius: 4px;
+    padding: 3px;
+    border: none;
+}
