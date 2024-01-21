@@ -17,11 +17,7 @@
     height: 10rem;
     width: 10rem;
     border-radius: 100%;
-    background-color: cadetblue;
     border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .address h5{
@@ -57,4 +53,15 @@
     border-radius: 4px;
     padding: 3px;
     border: none;
+}
+
+.pagination{
+    display: flex;
+    gap: 1rem;
+}
+.paginateBtn{
+   color: white;
+   background-color: blue;
+   border: none;
+   cursor: pointer;
 }
